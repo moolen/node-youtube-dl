@@ -1,5 +1,6 @@
 # youtube-dl [![Build Status](https://secure.travis-ci.org/fent/node-youtube-dl.png)](http://travis-ci.org/fent/node-youtube-dl)
 
+This is a fork. it is optimized to be used in node-webkit packed applications.
 Download videos from youtube in node.js using [youtube-dl](http://rg3.github.com/youtube-dl/).
 
 I also made a [pure Javascript youtube downloading module](https://github.com/fent/node-ytdl). The reason I'm maintaining this one is because it supports a lot more video sites besides youtube.
