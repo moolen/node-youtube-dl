@@ -2,11 +2,11 @@ var fs    = require('fs');
 var path  = require('path');
 var http  = require('http');
 var https = require('https');
+var os    = require('os');
 
-var dir = path.join(__dirname, '..', 'bin');
+var dir = os.tmpdir();/*path.join(__dirname, '..', 'bin');*/
 var filepath = path.join(dir, 'youtube-dl');
 var verpath  = path.join(dir, 'version');
-
 
 // Make bin dir if it doesn't exists.
 if (!fs.existsSync(dir)) {
